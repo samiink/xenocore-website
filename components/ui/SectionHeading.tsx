@@ -1,4 +1,27 @@
 type SectionHeadingProps = {
+    eyebrow?: string;
+        title: string;
+              description?: string;
+                      className?: string;
+                              };
+                              
+                                      export function SectionHeading({
+                                                eyebrow,
+                                                     
+                                                     ype SectionHeadingProps = {
+  eyebrow?: string;
+    title: string;
+      description?: string;
+        className?: string;
+        };
+
+        export function SectionHeading({
+          eyebrow,
+            title,
+              description,
+                className = "
+
+type SectionHeadingProps = {
   eyebrow?: string;
   title: string;
   description?: string;
@@ -31,3 +54,4 @@ export function SectionHeading({
     </div>
   );
 }
+ // fix rebuild

@@ -1,10 +1,16 @@
 "use client";
-
+ // fix rebuild
+ import { useState } from "react";
+ import { motion, AnimatePresence } from "framer-motion";
+ import { faqItems } from "@/lib/constants";
+ import { RevealSection } from "@/components/ui/RevealSection";
+ import
+ 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { faqItems } from "@/lib/constants";
 import { RevealSection } from "@/components/ui/RevealSection";
-import SectionHeading from "@/components/ui/SectionHeading";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { SignalCard } from "@/components/ui/SignalCard";
 
 export function FAQSection() {
